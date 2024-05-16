@@ -1,0 +1,11 @@
+= fritzbox-log.scraper
+
+== TL;DR
+Use selenium to scrape fritzbox logs. 
+
+== Info
+https://www.zenrows.com/blog/selenium-python-web-scraping[Web Scraping with Selenium and Python in 2024]
+https://hub.docker.com/r/selenium/standalone-chrome
+https://medium.com/no-sliver-bullet/apple-m1-讓你的-docker-build-不起來了嗎-bbe133d6d1bb
+https://www.browserstack.com/guide/run-selenium-tests-using-firefox-driver
+https://github.com/browserless/browserless

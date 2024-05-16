@@ -1,5 +1,5 @@
 {
-  "name": "python-dev",
+  "name": "fritzbox-log-scraper",
   "dockerComposeFile": [
     "docker-compose.yml"
   ],
@@ -24,14 +24,14 @@
         "streetsidesoftware.code-spell-checker",
         "wesbos.theme-cobalt2",
         "ms-python.python",
-        //"demystifying-javascript.python-extensions-pack",
-        "frhtylcn.pythonsnippets"
+        "frhtylcn.pythonsnippets",
+        "chrmarti.regex"
       ]
     }
   },
-  "service": "python-dev",
+  "service": "fritzbox-log-scraper",
   "workspaceFolder": "/src",
   "remoteUser": "vscode",
-  "postStartCommand": "python -m pip install -r requirements.txt && pytest-w test . -c './pytest-watcher-config.yaml' ",
+  "postStartCommand": "python -m pip install -r requirements.txt ", // && pytest-watch test . -c './pytest-watcher-config.yaml' ",
   "shutdownAction": "stopCompose"
 }
