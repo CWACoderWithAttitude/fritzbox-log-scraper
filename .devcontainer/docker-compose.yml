@@ -11,16 +11,16 @@ services:
       - ..:/src:cached
     command: >
       bash -c "sleep infinity"
-  chrome-m1:
-    image: ghcr.io/browserless/chromium
-    hostname: chrome.local
-    ports:
-      - 3001:3000
-  firefox-m1:
-    image: ghcr.io/browserless/firefox
-    hostname: ff.local
-    ports:
-      - 3002:3000
+  # chrome-m1:
+  #   image: ghcr.io/browserless/chromium
+  #   hostname: chrome.local
+  #   ports:
+  #     - 3001:3000
+  # firefox-m1:
+  #   image: ghcr.io/browserless/firefox
+  #   hostname: ff.local
+  #   ports:
+  #     - 3002:3000
 
   # grid code taken from 
   #   https://www.atlantbh.com/selenium-grid-4-with-docker/
@@ -33,8 +33,8 @@ services:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
-      - SE_NODE_MAX_INSTANCES=5
-      - SE_NODE_MAX_SESSIONS=5
+      - SE_NODE_MAX_INSTANCES=1
+      - SE_NODE_MAX_SESSIONS=2
 
   selenium-hub:
     image: selenium/hub:4.1.4-20220427
