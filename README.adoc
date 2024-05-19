@@ -9,3 +9,4 @@ https://hub.docker.com/r/selenium/standalone-chrome
 https://medium.com/no-sliver-bullet/apple-m1-讓你的-docker-build-不起來了嗎-bbe133d6d1bb
 https://www.browserstack.com/guide/run-selenium-tests-using-firefox-driver
 https://github.com/browserless/browserless
+https://github.com/seleniumhq/docker-selenium/#quick-start

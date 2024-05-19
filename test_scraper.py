@@ -1,4 +1,4 @@
-import pytest
+import pytest, re
 from fritz_scraper import get_ff, get_driver
 from selenium import webdriver
 #from selenium.webdriver.chrome.options import Options
@@ -65,7 +65,7 @@ def Xtest_select_username():
     driver = get_remote_ff()
     try:
         driver = select_username(driver=driver, username='bubu')
-    
+        
         select = Select(driver.find_element(By.ID, 'uiViewUser'))
     # https://stackoverflow.com/questions/11934966/how-to-get-selected-option-using-selenium-webdriver-with-java
     
@@ -76,8 +76,6 @@ def Xtest_select_username():
         driver.quit()
         
 def get_logs():
-    
-def test_select_logon_user():
     try:
         driver = get_remote_ff()
         #driver.manage().timeouts().setScriptTimeout(10) #, TimeUnit.SECONDS);
@@ -102,22 +100,57 @@ def test_select_logon_user():
     except:
         print("Error2")
         driver.quit()
-    # click 'Events' in sidemenu
+    try:
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'sys')))
+        sys = driver.find_element(By.ID, 'sys')
+        sys.click()
+        #print(f"log: {sys}")
+    except:
+        print("Error at click sys-menu item")
+        driver.quit()
     try:
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'log')))
         log = driver.find_element(By.ID, 'log')
         log.click()
-        print(f"log: {log}")
+        #print(f"log: {log}")
     except:
         print("Error4")
         driver.quit()
     try:
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'logBox')))
         logbox = driver.find_element(By.ID, 'logBox')
-        print(f"logbox: {logbox}")
+        #print(f"logbox: {logbox}")
     except:
         print("Error4")
         driver.quit()
+    return logbox
+
+
+def test_select_logon_user():
+    driver = get_logs()    
+    # click 'Events' in sidemenu
+    
+    # now process log entries
+    #log_entries = driver.find_elements(By.TAG_NAME, 'a')
+    log_entries = driver.find_elements(By.CLASS_NAME , 'print')
+    num_entries = 10 #len(log_entries)
+    assert num_entries != 42
+    log_json = []
+    for entry in log_entries:
+        num_entries = num_entries+1
+        line=entry.text
+        date = re.search('\d{1,2}\.\d{1,2}\.\d{1,2}', line)
+        time = re.search('\d{1,2}\:\d{1,2}\:\d{1,2}', line)
+        msg = 'msg'    #re.search('\"msg\"\>.*$', line) # not finished
+        assert line != 'blafaselblubb'
+        log = {'date':date, 'time':time, 'msg':msg}
+        log_json.append(log)
+    assert len(log_json) == len(log_entries)
+    #assert 'britzel' == log_entries[1].locator('a') #find_elements(By.CLASS_NAME , 'msg')
+    #print(f"logbox: {log_entries}")
+    #print(f"logbox: #{len(log_entries)} Entries")
+    driver.quit()
+        
     # https://stackoverflow.com/questions/75080830/python-selenium-element-not-reachable-by-keyboard-error
     #pwd_field = driver.find_element(By.ID, 'uiPass')
     #assert None != pwd_field

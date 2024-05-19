@@ -25,7 +25,8 @@
         "wesbos.theme-cobalt2",
         "ms-python.python",
         "frhtylcn.pythonsnippets",
-        "chrmarti.regex"
+        "chrmarti.regex",
+        "ms-playwright.playwright"
       ]
     }
   },
@@ -33,6 +34,7 @@
   "workspaceFolder": "/src",
   "remoteUser": "vscode",
   //"postStartCommand": "python -m pip install -r requirements.txt ", // && pytest-watch test . -c './pytest-watcher-config.yaml' ",
-  "postStartCommand": "python -m pip install -r requirements.txt  && ptw test_scraper.py ",
+  // https://playwright.dev/python/docs/intro#installing-playwright-pytest
+  "postStartCommand": "python -m pip install -r requirements.txt  ", //&& playwright install ", // && ptw test_scraper.py ",
   "shutdownAction": "stopCompose"
 }
