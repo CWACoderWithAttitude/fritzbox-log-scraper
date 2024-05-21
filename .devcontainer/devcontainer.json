@@ -35,6 +35,6 @@
   "remoteUser": "vscode",
   //"postStartCommand": "python -m pip install -r requirements.txt ", // && pytest-watch test . -c './pytest-watcher-config.yaml' ",
   // https://playwright.dev/python/docs/intro#installing-playwright-pytest
-  "postStartCommand": "python -m pip install -r requirements.txt  ", //&& playwright install ", // && ptw test_scraper.py ",
+  "postStartCommand": "python -m pip install -r requirements.txt", //&& playwright install ", // && ptw test_scraper.py ",
   "shutdownAction": "stopCompose"
 }

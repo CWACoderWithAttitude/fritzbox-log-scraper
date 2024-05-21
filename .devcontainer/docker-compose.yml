@@ -1,4 +1,4 @@
-version: "3.7"
+#version: "3.7"
 
 services:
   fritzbox-log-scraper:
@@ -9,6 +9,8 @@ services:
     working_dir: /src
     volumes:
       - ..:/src:cached
+    env_file:
+      - .env
     command: >
       bash -c "sleep infinity"
   # chrome-m1:

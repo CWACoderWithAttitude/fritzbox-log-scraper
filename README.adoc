@@ -4,9 +4,16 @@
 Use selenium to scrape fritzbox logs. 
 
 == Info
-https://www.zenrows.com/blog/selenium-python-web-scraping[Web Scraping with Selenium and Python in 2024]
-https://hub.docker.com/r/selenium/standalone-chrome
-https://medium.com/no-sliver-bullet/apple-m1-讓你的-docker-build-不起來了嗎-bbe133d6d1bb
-https://www.browserstack.com/guide/run-selenium-tests-using-firefox-driver
-https://github.com/browserless/browserless
-https://github.com/seleniumhq/docker-selenium/#quick-start
+* https://www.zenrows.com/blog/selenium-python-web-scraping[Web Scraping with Selenium and Python in 2024]
+* https://hub.docker.com/r/selenium/standalone-chrome
+* https://medium.com/no-sliver-bullet/apple-m1-讓你的-docker-build-不起來了嗎-bbe133d6d1bb
+* https://github.com/seleniumhq/docker-selenium/#quick-start
+* https://www.selenium.dev/documentation/webdriver/drivers/remote_webdriver/#downloads
+* https://github.com/browserless/browserless
+* https://www.browserstack.com/guide/run-selenium-tests-using-firefox-driver
+* https://gist.github.com/dzitkowskik/0fc641cf59af0dc3de62[A simple tutorial of using selenium grid in python unittests]
+* https://www.atlantbh.com/selenium-grid-4-with-docker/[Selenium Grid 4 with Docker]
+* https://hackmd.io/@jenc/SJYmGcKsK[pytest - fixture; Setup and Teardown]
+* https://github.com/SeleniumHQ/selenium/issues/12031[[🚀 Feature]: Grid endpoint to kill all sessions of all nodes connected to a hub]
+* https://regex101.com[regex101.com]
+*   
