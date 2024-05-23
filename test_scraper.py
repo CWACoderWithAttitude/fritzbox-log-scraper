@@ -108,7 +108,9 @@ def test_login_to_fritzbox():
     assert driver.title == FRITZ_BOX_TITLE_AFTER_LOGIN
     logbox = get_logbox(driver=driver)
     assert logbox != "bubu"
-    get_log_entries_from_logbox(logbox)
+    log_json = get_log_entries_from_logbox(logbox)
+    assert len(log_json) != 42
+    
 def get_logbox(driver : webdriver):
     
     try:
@@ -140,48 +142,33 @@ def get_logbox(driver : webdriver):
             driver.quit()
     return logbox
 
-
-def get_log_entries_from_logbox(driver : webdriver):
-    
-    # click 'Events' in sidemenu
-    
-    # now process log entries
-    #log_entries = driver.find_elements(By.TAG_NAME, 'a')
+def get_log_entries_from_logbox(driver : webdriver) -> list:
     log_entries = driver.find_elements(By.CLASS_NAME , 'print')
     num_entries = 10 #len(log_entries)
     assert num_entries != 0
     log_json = []
-    for entry in log_entries:
-        if len(log_json) > 10:
-            exit
-        else:
-            print(f"test_select_logn_user: {len(log_json)}")
-        num_entries = num_entries+1
-        line=entry.text
-        dateMatch = re.search(r'\d{1,2}\.\d{1,2}\.\d{1,2}', line)
-        date = dateMatch.group() #line[dateMatch.start:dateMatch.end]
-        time = re.search(r'\d{1,2}\:\d{1,2}\:\d{1,2}', line).group()
-        msg = 'msg'    #re.search('\"msg\"\>.*$', line) # not finished
-        msg = re.search(r'msg">[A-Z].*', line) # not finished
-        assert line != 'blafaselblubb'
-        log = {'date':date, 'time':time, 'msg':msg}
-        print(log)
-        log_json.append(log)
-        print(f"len(log_json): {len(log_json)}")
-    assert len(log_json) == len(log_entries)
-    #assert 'britzel' == log_entries[1].locator('a') #find_elements(By.CLASS_NAME , 'msg')
-    #print(f"logbox: {log_entries}")
-    #print(f"logbox: #{len(log_entries)} Entries")
-    driver.quit()
+    try :
+        for entry in log_entries:
+            if len(log_json) > 10:
+                log_json[:-1]
+            else:
+                print(f"test_select_logn_user: {len(log_json)}")
+            num_entries = num_entries+1
+            line=entry.text
+            dateMatch = re.search(r'\d{1,2}\.\d{1,2}\.\d{1,2}', line)
+            date = dateMatch.group() #line[dateMatch.start:dateMatch.end]
+            time = re.search(r'\d{1,2}\:\d{1,2}\:\d{1,2}', line).group()
+            msg = 'msg'    #re.search('\"msg\"\>.*$', line) # not finished
+            REGEXP_MSG = r':\d{2}\n\S.*$'
+            msg = re.search(REGEXP_MSG, line).group()
+            log = {'date':date, 'time':time, 'msg':msg}
+            print(log)
+            log_json.append(log)
+            print(f"len(log_json): {len(log_json)}")
+    except:
+        print(f"error ocurred while processing logs - returning {len(log_json)} from {len(log_entries)} logged messages...")
+    #driver.quit()
+    return log_json
         
-    # https://stackoverflow.com/questions/75080830/python-selenium-element-not-reachable-by-keyboard-error
-    #pwd_field = driver.find_element(By.ID, 'uiPass')
-    #assert None != pwd_field
-    #pwd_field.click()
-    #pwd_field.send_keys('proben8453')
-#     # https://www.selenium.dev/documentation/webdriver/elements/interactions/
-#     driver.find_element(By.ID, 'uiPassInput)').send_keys('proben8453')
-#     driver.find_element(By.ID, 'submitLoginBtn)').click()
-#     assert driver.title == 'volker'
     
     

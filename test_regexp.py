@@ -29,14 +29,16 @@ def test_get_time_match():
     time_match = re.search(REGEXP_TIME, DATA)
     assert time_match.group() == '23:55:21'
 
+line='23.05.24\n17:50:41\nAnmeldung des Benutzers supermann an der FRITZ!Box-Benutzeroberfläche von IP-Adresse 192.168.178.24.'
+#line = line.replace('\n', '')
+REGEXP_MSG = r':\d{2}\n\S.*$'
+
 def test_match_msg():
-    msg_match = re.findall(REGEXP_MSG, DATA)
+    msg_match = re.findall(REGEXP_MSG, line)
     assert len(msg_match) == 1
     
-#REGEXP_MSG = r'\<div class=\"msg\"\>.*\<\/dev\>'
-REGEXP_MSG = r'msg">[A-Z].*'
 
 def test_get_msg_match():
-    msg_match = re.search(REGEXP_MSG, DATA)
+    msg_match = re.search(REGEXP_MSG, line)
     
     assert msg_match.group() == EXPECTED_MSG
