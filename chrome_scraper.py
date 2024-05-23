@@ -1,6 +1,6 @@
-import pytest, re, os
-#from fritz_scraper import get_ff, get_driver
-from ff_scraper import get_remote_ff
+chrome_scraper.pyimport pytest, re, os
+from fritz_scraper import get_ff, get_driver
+from ff_scraper import
 from selenium import webdriver
 #from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import Select
@@ -23,6 +23,22 @@ ID_PWD_FIELD='uiPassInput'
 ID_BTN_OK = 'submitLoginBtn'
 FRITZ_BOX_TITLE_AFTER_LOGIN='FRITZ!Box 6591 Cable'
     
+def build_ff_options():
+    ff_options = webdriver.FirefoxOptions()
+    ff_options.add_argument("-headless")
+    return ff_options
+
+def build_chrome_options():
+    options = webdriver.ChromeOptions()
+    options.add_argument("--no-sandbox")
+    return options
+    
+def get_remote_ff():
+    driver = webdriver.Remote(
+        command_executor=sel_url,
+        options=build_ff_options()  #{'browserName': 'firefox', 'javascriptEnabled': True}
+    )
+    return driver
 #def test_get_ff():
 #    driver = get_remote_ff()
 
@@ -42,6 +58,53 @@ def Xtest_call_fritzbox_and_check_title():
     driver.quit()
 
 def fritz_login(driver : webdriver, username:str, password:str):
+    pass
+
+def select_username(driver : webdriver, username:str):
+    driver.get('http://fritz.box')
+    # https://stackoverflow.com/questions/7867537/how-to-select-a-drop-down-menu-value-with-selenium-using-python
+    select = Select(driver.find_element(By.ID, 'uiViewUser'))
+    
+    #select.select_by_value('supermann')
+    return driver
+
+def Xtest_select_username():
+    driver = get_remote_ff()
+    try:
+        driver = select_username(driver=driver, username='bubu')
+        
+        select = Select(driver.find_element(By.ID, 'uiViewUser'))
+    # https://stackoverflow.com/questions/11934966/how-to-get-selected-option-using-selenium-webdriver-with-java
+    
+        assert 'itzelbritzel' == select.getFirstSelectedOption().getText()
+    
+    except:
+        print("Error occured")
+        driver.quit()
+       
+def Xtest_get_remote_ff():
+     driver = get_remote_ff()
+     assert driver != 'bubu'
+
+def get_remote_chrome():
+    driver = webdriver.Remote(
+        command_executor='http://192.168.178.153:4444/wd/hub',
+        options=build_chrome_options()  #{'browserName': 'firefox', 'javascriptEnabled': True}
+    )
+    return driver
+def Xtest_get_remote_chrome():
+    """https://twomas.medium.com/selenium-grid-on-docker-in-a-raspberry-pi-for-automated-testing-on-chrome-caf59b5fb5c0
+    """
+    d = get_remote_chrome()
+    d.get(url='https://www.heise.de')
+    assert d.title == 'bubu'
+    
+def Xtest_get_page():
+     driver = get_remote_ff()
+     driver.get(url='https://www.heise.de')
+     assert driver.title == 'heise online - IT-News, Nachrichten und Hintergründe | heise online'
+     
+def get_logs():
     driver = None
     try:
         driver = get_remote_ff()
@@ -65,52 +128,11 @@ def fritz_login(driver : webdriver, username:str, password:str):
     try:
         #WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, ID_PWD_FIELD)))
         driver.find_element(By.ID, ID_BTN_OK).click()
-        return driver
-        #assert driver.title == FRITZ_BOX_TITLE_AFTER_LOGIN
+        assert driver.title == FRITZ_BOX_TITLE_AFTER_LOGIN
     except:
         print("get_logs > Error2")
         if driver is not None:
             driver.quit()
-
-def Xtest_select_username():
-    driver = get_remote_ff()
-    try:
-        driver = select_username(driver=driver, username='bubu')
-        
-        select = Select(driver.find_element(By.ID, 'uiViewUser'))
-    # https://stackoverflow.com/questions/11934966/how-to-get-selected-option-using-selenium-webdriver-with-java
-    
-        assert 'itzelbritzel' == select.getFirstSelectedOption().getText()
-    
-    except:
-        print("Error occured")
-        driver.quit()
-       
-def _test_get_remote_ff():
-    try:
-        driver = get_remote_ff()
-        assert driver != 'bubu'
-    except:
-        if driver is not None:
-            driver.quit()
-
-def _test_get_page():
-    try:
-        driver = get_remote_ff()
-        driver.get(url='https://www.heise.de')
-        assert driver.title == 'heise online - IT-News, Nachrichten und Hintergründe | heise online'
-    except:
-        if driver is not None:
-            driver.quit()
-     
-def test_login_to_fritzbox():    
-    driver = fritz_login(None, None, None)
-    assert driver.title == FRITZ_BOX_TITLE_AFTER_LOGIN
-    logbox = get_logbox(driver=driver)
-    assert logbox != "bubu"
-    get_log_entries_from_logbox(logbox)
-def get_logbox(driver : webdriver):
-    
     try:
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'sys')))
         sys = driver.find_element(By.ID, 'sys')
@@ -141,8 +163,8 @@ def get_logbox(driver : webdriver):
     return logbox
 
 
-def get_log_entries_from_logbox(driver : webdriver):
-    
+def Xtest_select_logon_user():
+    driver = get_logs()    
     # click 'Events' in sidemenu
     
     # now process log entries
@@ -159,16 +181,14 @@ def get_log_entries_from_logbox(driver : webdriver):
         num_entries = num_entries+1
         line=entry.text
         dateMatch = re.search(r'\d{1,2}\.\d{1,2}\.\d{1,2}', line)
-        date = dateMatch.group() #line[dateMatch.start:dateMatch.end]
-        time = re.search(r'\d{1,2}\:\d{1,2}\:\d{1,2}', line).group()
+        date = line[dateMatch.start:dateMatch.end]
+        time = re.search(r'\d{1,2}\:\d{1,2}\:\d{1,2}', line)
         msg = 'msg'    #re.search('\"msg\"\>.*$', line) # not finished
-        msg = re.search(r'msg">[A-Z].*', line) # not finished
         assert line != 'blafaselblubb'
         log = {'date':date, 'time':time, 'msg':msg}
         print(log)
         log_json.append(log)
-        print(f"len(log_json): {len(log_json)}")
-    assert len(log_json) == len(log_entries)
+    assert len(log_json)+1 == len(log_entries)
     #assert 'britzel' == log_entries[1].locator('a') #find_elements(By.CLASS_NAME , 'msg')
     #print(f"logbox: {log_entries}")
     #print(f"logbox: #{len(log_entries)} Entries")

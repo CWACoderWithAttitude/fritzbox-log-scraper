@@ -16,4 +16,5 @@ Use selenium to scrape fritzbox logs.
 * https://hackmd.io/@jenc/SJYmGcKsK[pytest - fixture; Setup and Teardown]
 * https://github.com/SeleniumHQ/selenium/issues/12031[[🚀 Feature]: Grid endpoint to kill all sessions of all nodes connected to a hub]
 * https://regex101.com[regex101.com]
-*   
+* https://medium.com/@prachi1808saini/installing-firefox-inside-a-docker-container-b331fdb2c1e4[“Installing Firefox inside a Docker Container”]
+* https://hub.docker.com/r/msjpq/firefox-vnc

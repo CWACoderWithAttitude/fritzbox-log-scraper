@@ -34,8 +34,9 @@ def test_match_msg():
     assert len(msg_match) == 1
     
 #REGEXP_MSG = r'\<div class=\"msg\"\>.*\<\/dev\>'
-REGEXP_MSG = r'\<div class=\"msg\"\>.*'
+REGEXP_MSG = r'msg">[A-Z].*'
 
 def test_get_msg_match():
-    msg_match = re.findall(REGEXP_MSG, DATA)
-    assert msg_match[0] == EXPECTED_MSG
+    msg_match = re.search(REGEXP_MSG, DATA)
+    
+    assert msg_match.group() == EXPECTED_MSG
