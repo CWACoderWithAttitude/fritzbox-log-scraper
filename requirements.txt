@@ -2,3 +2,6 @@ selenium
 pytest
 pytest-watch
 #pytest-playwright
+uvicorn
+fastapi
+httpx
