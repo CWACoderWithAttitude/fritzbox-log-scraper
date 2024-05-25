@@ -1,5 +1,6 @@
 selenium
 pytest
+pytest-mock
 pytest-watch
 #pytest-playwright
 uvicorn
