@@ -27,7 +27,8 @@ services:
   # grid code taken from 
   #   https://www.atlantbh.com/selenium-grid-4-with-docker/
   firefox:
-    image: selenium/node-firefox:4.1.4-20220427
+    #image: selenium/node-firefox:4.1.4-20220427
+    image: selenium/node-firefox:126.0
     shm_size: 2gb
     depends_on:
       - selenium-hub
@@ -40,8 +41,10 @@ services:
       #- SE_VNC_PASSWORD=itzelbritzel
 
   selenium-hub:
-    image: selenium/hub:4.1.4-20220427
+    #image: selenium/hub:4.1.4-20220427
+    image: selenium/hub:4.21.0
     container_name: selenium-hub
+
     ports:
       - "4442:4442"
       - "4443:4443"
