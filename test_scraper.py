@@ -41,11 +41,13 @@ def Xtest_call_fritzbox_and_check_title():
     assert driver.title == 'FRITZ!Box'
     driver.quit()
 
-def fritz_login(driver : webdriver, username:str, password:str):
+#def fritz_login(driver : webdriver, username:str, password:str):
+def fritz_login(username:str, password:str):
     driver = None
     try:
         driver = get_remote_ff()
-        driver.get(os.environ['FRITZBOX_URL'])
+        url = os.environ['FRITZBOX_URL']
+        driver.get(url)
         # https://stackoverflow.com/questions/7867537/how-to-select-a-drop-down-menu-value-with-selenium-using-python
         select = Select(driver.find_element(By.ID, 'uiViewUser'))
         select.select_by_value('supermann')
@@ -56,7 +58,7 @@ def fritz_login(driver : webdriver, username:str, password:str):
         pwd_field = driver.find_element(By.ID, ID_PWD_FIELD)
         assert None != pwd_field
         pwd_field.click()
-        pwd_field.send_keys(os.environ['FRITZBOX_PASSWORD'])
+        pwd_field.send_keys(password)
         #select.select_by_value(os.environ['FRITZBOX_USER'])
     except:
         print("get_logs > Error1")
@@ -86,7 +88,8 @@ def Xtest_select_username():
         print("Error occured")
         driver.quit()
        
-def _test_get_remote_ff():
+def test_get_remote_ff():
+    driver = None
     try:
         driver = get_remote_ff()
         assert driver != 'bubu'
@@ -94,7 +97,7 @@ def _test_get_remote_ff():
         if driver is not None:
             driver.quit()
 
-def _test_get_page():
+def test_get_page():
     try:
         driver = get_remote_ff()
         driver.get(url='https://www.heise.de')
@@ -102,10 +105,23 @@ def _test_get_page():
     except:
         if driver is not None:
             driver.quit()
-     
+
+def test_make_screenshot_from_page():
+    try:
+        driver = get_remote_ff()
+        driver.get(url='https://www.heise.de')
+        shot_ok = driver.get_screenshot_as_file('./heise.png')
+        assert shot_ok == "bubu"
+    except:
+        if driver is not None:
+            driver.quit()
+    
 def test_login_to_fritzbox():    
-    driver = fritz_login(None, None, None)
+    driver = fritz_login(None, os.environ['FRITZBOX_PASSWORD'])
     assert driver.title == FRITZ_BOX_TITLE_AFTER_LOGIN
+    
+def test_get_log_entries_from_fritzbox():    
+    driver = fritz_login(None, None, None)
     logbox = get_logbox(driver=driver)
     assert logbox != "bubu"
     log_json = get_log_entries_from_logbox(logbox)

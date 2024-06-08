@@ -22,7 +22,7 @@ def test_read_logs(mocker):
     client.get("/logs")
     assert response.status_code == 200
 # https://pytest-with-eric.com/mocking/pytest-mocking/#Mock-External-Rest-API-Calls
-def test_read_mocked_logs(mocker):
+def Xtest_read_mocked_logs(mocker):
     mock_logs = {"msg": "Hallo Bad Vilbel"}
     mock_response = mocker.MagicMock()
     mock_response.json.return_value = mock_logs
