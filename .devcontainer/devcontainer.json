@@ -18,15 +18,15 @@
         "adpyke.codesnap",
         "donjayamanne.python-extension-pack",
         "dzhavat.git-cheatsheet",
-        "EditorConfig.EditorConfig",
         "ms-azuretools.vscode-docker",
         "PKief.material-icon-theme",
         "streetsidesoftware.code-spell-checker",
         "wesbos.theme-cobalt2",
         "ms-python.python",
         "frhtylcn.pythonsnippets",
-        "chrmarti.regex",
-        "ms-playwright.playwright"
+        "AykutSarac.jsoncrack-vscode",
+        "charliermarsh.ruff",
+        "Monish.regexsnippets"
       ]
     }
   },
