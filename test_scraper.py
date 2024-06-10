@@ -1,24 +1,19 @@
 import os
 import re
-from datetime import datetime
+
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
 from ff_scraper import get_remote_ff
+from scraper.tools import get_timestamp
 
-chrome_options = webdriver.ChromeOptions()
-# chrome_options.set_capability('browserless:token', 'YOUR-API-TOKEN')
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--headless")
-sel_url = "http://chrome.local:3000/wd/hub"
-sel_url = "http://chrome.local:3000/webdriver"
-sel_url = "http://chrome.local:3000/playwright/chromium"
-sel_url = "http://chrome.local:3000/chrome"
-
-sel_url = "http://chrome.local:3000"  # /playwright/chromium'
+# chrome_options = webdriver.ChromeOptions()
+##chrome_options.add_argument("--no-sandbox")
+# chrome_options.add_argument("--headless")
 sel_url = "http://selenium-hub:4444/wd/hub"
 ID_PWD_FIELD = "uiPassInput"
 ID_BTN_OK = "submitLoginBtn"
@@ -57,11 +52,9 @@ def fritz_login(username: str, password: str):
 
         # select.select_by_value(os.environ['FRITZBOX_USER'])
         # https://www.browserstack.com/guide/understanding-selenium-timeouts
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.ID, ID_PWD_FIELD))
-        )
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, ID_PWD_FIELD)))
         pwd_field = driver.find_element(By.ID, ID_PWD_FIELD)
-        assert None != pwd_field
+        assert None is not pwd_field
         pwd_field.click()
         pwd_field.send_keys(password)
         # select.select_by_value(os.environ['FRITZBOX_USER'])
@@ -80,21 +73,6 @@ def fritz_login(username: str, password: str):
             driver.quit()
 
 
-def Xtest_select_username():
-    driver = get_remote_ff()
-    try:
-        driver = select_username(driver=driver, username="bubu")
-
-        select = Select(driver.find_element(By.ID, "uiViewUser"))
-        # https://stackoverflow.com/questions/11934966/how-to-get-selected-option-using-selenium-webdriver-with-java
-
-        assert "itzelbritzel" == select.getFirstSelectedOption().getText()
-
-    except:
-        print("Error occured")
-        driver.quit()
-
-
 def test_get_remote_ff():
     driver = None
     try:
@@ -105,25 +83,58 @@ def test_get_remote_ff():
             driver.quit()
 
 
-def test_get_page():
-    try:
-        driver = get_remote_ff()
-        driver.get(url="https://www.heise.de")
-        assert (
-            driver.title
-            == "heise online - IT-News, Nachrichten und Hintergründe | heise online"
-        )
-    except:
-        if driver is not None:
-            driver.quit()
+def get_remote_chrome():
+    chrome_options = Options()
+    chrome_options.add_argument("--incognito")
+    driver1 = webdriver.Remote(
+        command_executor=sel_url,
+        # desired_capabilities={
+        #    "browserName": "chrome",
+        # },
+        options=chrome_options,
+    )
+    # dc = webdriver.DesiredCapabilities()
+    # dc.add("browserName", "chromium")  ##{'browserName': 'firefox', 'javascriptEnabled': True})
+    # chrome_options = webdriver.ChromeOptions()
+    # chrome_options.setCapability("browserVersion", "100")
+    # chrome_options.setCapability("platformName", "Windows")
+    # // Showing a test name instead of the session id in the Grid UI
+    # chrome_options.setCapability("se:name", "My simple test")
+    # // Other type of metadata can be seen in the Grid UI by clicking on the
+    # // session info or via GraphQL
+    # chrome_options.setCapability("se:sampleMetadata", "Sample metadata value")
+    # driver = new RemoteWebDriver(new URL("http://gridUrl:4444"), chromeOptions);
+    # driver = webdriver.Remote(command_executor=sel_url, options=chrome_options)
+    return driver1
 
 
-def get_timestamp():
-    now = datetime.now()  # current date and time
-    # date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
-    date_time = now.strftime("%Y-%m-%d_%H_%M_%S")
-    print("date and time:", date_time)
-    return date_time
+def test_get_remote_chrome():
+    driver = get_remote_chrome()
+    assert driver == "bubu"
+
+
+def test_get_page_chrome():
+    title = None
+
+    driver = get_remote_chrome()
+    driver.get(url="https://www.heise.de")
+    title = driver.title
+    if driver is not None:
+        driver.quit()
+
+    assert title == "heise online - IT-News, Nachrichten und Hintergründe | heise online"
+
+
+def test_get_page_firefox():
+    title = None
+
+    driver = get_remote_ff()
+    driver.get(url="https://www.heise.de")
+    title = driver.title
+    if driver is not None:
+        driver.quit()
+
+    assert title == "heise online - IT-News, Nachrichten und Hintergründe | heise online"
 
 
 def test_make_screenshot_from_page():
@@ -131,6 +142,17 @@ def test_make_screenshot_from_page():
         driver = get_remote_ff()
         driver.get(url="https://www.heise.de")
         shot_ok = driver.get_screenshot_as_file(f"./{get_timestamp()}-heise.png")
+        assert shot_ok == "bubu"
+    except:
+        if driver is not None:
+            driver.quit()
+
+
+def test_make_screenshot_from_page_chrome():
+    try:
+        driver = get_remote_chrome()
+        driver.get(url="https://www.heise.de")
+        shot_ok = driver.get_screenshot_as_file(f"./{get_timestamp()}-chrome-heise.png")
         assert shot_ok == "bubu"
     except:
         if driver is not None:
@@ -171,9 +193,7 @@ def get_logbox(driver: webdriver):
             driver.quit()
     logbox = None
     try:
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.ID, "logBox"))
-        )
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "logBox")))
         logbox = driver.find_element(By.ID, "logBox")
         # print(f"logbox: {logbox}")
     except:
@@ -207,8 +227,6 @@ def get_log_entries_from_logbox(driver: webdriver) -> list:
             log_json.append(log)
             print(f"len(log_json): {len(log_json)}")
     except:
-        print(
-            f"error ocurred while processing logs - returning {len(log_json)} from {len(log_entries)} logged messages..."
-        )
+        print(f"error ocurred while processing logs - returning {len(log_json)} from {len(log_entries)} logged messages...")
     # driver.quit()
     return log_json
