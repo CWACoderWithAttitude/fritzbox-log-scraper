@@ -9,6 +9,7 @@
       "settings": {
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file",
+        "editor.maxTokenizationLineLength": 200000,
         "git.rebaseWhenSync": true,
         "remote.restoreForwardedPorts": false,
         "remote.autoForwardPorts": false,
@@ -26,7 +27,8 @@
         "frhtylcn.pythonsnippets",
         "AykutSarac.jsoncrack-vscode",
         "charliermarsh.ruff",
-        "Monish.regexsnippets"
+        "Monish.regexsnippets",
+        "ms-vscode-remote.remote-containers"
       ]
     }
   },
