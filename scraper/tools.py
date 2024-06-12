@@ -1,5 +1,6 @@
 """Tools & helpers to assist using selenium"""
 
+import io, json
 from selenium import webdriver
 from datetime import datetime
 
@@ -10,10 +11,7 @@ def build_ff_options():
     return ff_options
 
 
-sel_url = "http://selenium-hub:4444/wd/hub"
-
-
-def get_remote_ff():
+def get_remote_ff(sel_url: str):
     driver = webdriver.Remote(
         command_executor=sel_url,
         options=build_ff_options(),  # {'browserName': 'firefox', 'javascriptEnabled': True}
@@ -41,3 +39,10 @@ def get_timestamp():
     date_time = now.strftime("%Y-%m-%d_%H_%M_%S")
     print("date and time:", date_time)
     return date_time
+
+
+def write_json_to_file(data: dict, file: str) -> None:
+    """Write JSON to file as dicussed here
+    https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file"""
+    with io.open(file, "w", encoding="utf-8") as f:
+        f.write(json.dumps(data, ensure_ascii=False))
