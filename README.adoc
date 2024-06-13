@@ -3,6 +3,17 @@
 == TL;DR
 Use selenium to scrape fritzbox logs. 
 
+== What
+Restarting my fritzbox means loosing all my logs. Using the TR-64 approach gives you some logs. 
+
+== Result
+With logs now in your filesystem you can ask questions
+
+1. How often did devices optimize throughput:
+´´´
+$ jq '.[] | select(.msg | contains("WLAN-Bandwechsel"))|.msg' 2024-06-13_05_36_46-fritz-logs.json |wc -l
+38
+´´´
 == Multiplatform Selenium images
 Selenium components for platforms like Raspberry Pi, Apple Silicon (M Series) are described https://www.selenium.dev/blog/2024/multi-arch-images-via-docker-selenium[here]
 

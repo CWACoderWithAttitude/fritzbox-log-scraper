@@ -28,10 +28,10 @@ def get_remote_ff(selenum_grid_url: str):
 
 def fritz_login(fritzbox_url: str, username: str, password: str):
     driver = None
+    sel_url = "http://selenium-hub:4444/wd/hub"
     try:
-        driver = get_remote_ff()
-        url = fritzbox_url
-        driver.get(url)
+        driver = get_remote_ff(selenum_grid_url=sel_url)
+        driver.get(fritzbox_url)
         # https://stackoverflow.com/questions/7867537/how-to-select-a-drop-down-menu-value-with-selenium-using-python
         select = Select(driver.find_element(By.ID, "uiViewUser"))
         # select.select_by_value("supermann")
@@ -125,11 +125,11 @@ def get_log_entries_from_logbox(driver: webdriver) -> list:
 from selenium.webdriver.chrome.options import Options
 
 
-def get_remote_chrome(sel_url: str):
+def get_remote_chrome(selenum_grid_url: str):
     chrome_options = Options()
     chrome_options.add_argument("--incognito")
     driver1 = webdriver.Remote(
-        command_executor=sel_url,
+        command_executor=selenum_grid_url,
         # desired_capabilities={
         #    "browserName": "chrome",
         # },
