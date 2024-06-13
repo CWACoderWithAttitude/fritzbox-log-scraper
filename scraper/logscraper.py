@@ -4,11 +4,34 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 
-import re
+import re, os
 
 
 ID_PWD_FIELD = "uiPassInput"
 ID_BTN_OK = "submitLoginBtn"
+sel_url = "http://selenium-hub:4444/wd/hub"
+ID_PWD_FIELD = "uiPassInput"
+ID_BTN_OK = "submitLoginBtn"
+FRITZ_BOX_TITLE_AFTER_LOGIN = "FRITZ!Box 6591 Cable"
+HEISE_URL = "https://www.heise.de"
+FRITZBOX_URL = os.environ["FRITZBOX_URL"]
+FRITZBOX_USER = os.environ["FRITZBOX_USER"]
+FRITZBOX_PASSWORD = os.environ["FRITZBOX_PASSWORD"]
+WHAT_BROWSER = os.environ["WHAT_BROWSER"]
+SELENIUM_HUB_URL = "http://selenium-hub:4444"
+
+
+def get_logs_from_fritzbox() -> list:
+    """Retrieve all logs from fritzbox as json array
+
+    Returns:
+        list[]: _description_
+    """
+    driver = fritz_login(FRITZBOX_URL, FRITZBOX_USER, FRITZBOX_PASSWORD)
+    logbox = get_logbox(driver=driver)
+    assert logbox != "bubu"
+    log_json = get_log_entries_from_logbox(logbox)
+    return log_json
 
 
 def build_ff_options():
