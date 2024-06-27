@@ -110,4 +110,5 @@ def test_get_log_entries_from_fritzbox():
     logbox = get_logbox(driver=driver)
     assert logbox != "bubu"
     log_json = get_log_entries_from_logbox(logbox)
+    assert len(log_json) >= 1
     write_json_to_file(log_json, f"{get_timestamp()}-fritz-logs.json")

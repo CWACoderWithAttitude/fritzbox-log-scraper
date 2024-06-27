@@ -1,11 +1,12 @@
+import os
+import re
+
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common.by import By
-
-import re, os
-
 
 ID_PWD_FIELD = "uiPassInput"
 ID_BTN_OK = "submitLoginBtn"
@@ -135,17 +136,12 @@ def get_log_entries_from_logbox(driver: webdriver) -> list:
             time = re.search(REGEXP_TIME, line).group()
             msg = "msg"
             msg = re.search(REGEXP_MSG, line).group()
-            log = {"date": date, "time": time, "msg": msg}
-            print(log)
-            log_json.append(log)
+            log_json.append({"date": date, "time": time, "msg": msg})
             print(f"len(log_json): {len(log_json)}")
     except:
         print(f"error ocurred while processing logs - returning {len(log_json)} from {len(log_entries)} logged messages...")
     # driver.quit()
     return log_json
-
-
-from selenium.webdriver.chrome.options import Options
 
 
 def get_remote_chrome(selenum_grid_url: str):

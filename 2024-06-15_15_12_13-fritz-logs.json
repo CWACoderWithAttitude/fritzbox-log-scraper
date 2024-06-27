@@ -1,0 +1,1883 @@
+[
+    {
+        "date": "15.06.24",
+        "time": "17:12:05",
+        "msg": ":05\nAnmeldung des Benutzers supermann an der FRITZ!Box-Benutzeroberfläche von IP-Adresse 192.168.178.24. [2 Meldungen seit 15.06.24 17:11:18]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:10:57",
+        "msg": ":57\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:10:45",
+        "msg": ":45\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104). [2 Meldungen seit 15.06.24 17:10:41]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:10:31",
+        "msg": ":31\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:10:25",
+        "msg": ":25\nAnmeldung des Benutzers supermann an der FRITZ!Box-Benutzeroberfläche von IP-Adresse 192.168.178.24.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:10:23",
+        "msg": ":23\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:10:15",
+        "msg": ":15\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:07:23",
+        "msg": ":23\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 433 Mbit/s, PC-04-34-F6-10-38-B1, IP 192.168.178.131, MAC 04:34:F6:10:38:B1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:07:21",
+        "msg": ":21\nWLAN-Gerät wurde umgemeldet (Band-Steering): Automatischer WLAN-Bandwechsel zur verbesserten Datenübertragung, PC-04-34-F6-10-38-B1, IP 192.168.178.131, MAC 04:34:F6:10:38:B1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:04:12",
+        "msg": ":12\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:04:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [4 Meldungen seit 15.06.24 17:03:12]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:02:44",
+        "msg": ":44\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:02:44",
+        "msg": ":44\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:02:36",
+        "msg": ":36\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "17:02:36",
+        "msg": ":36\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:51:50",
+        "msg": ":50\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:51:38",
+        "msg": ":38\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [9 Meldungen seit 15.06.24 16:50:18]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:50:14",
+        "msg": ":14\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:50:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:50:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:56",
+        "msg": ":56\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:43",
+        "msg": ":43\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:41",
+        "msg": ":41\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:35",
+        "msg": ":35\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:33",
+        "msg": ":33\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:24",
+        "msg": ":24\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:18",
+        "msg": ":18\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:16",
+        "msg": ":16\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:49:08",
+        "msg": ":08\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 16:49:00]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:48:48",
+        "msg": ":48\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104). [2 Meldungen seit 15.06.24 16:48:30]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:48:14",
+        "msg": ":14\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 16:48:06]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:47:58",
+        "msg": ":58\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:47:52",
+        "msg": ":52\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 16:47:30]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:47:14",
+        "msg": ":14\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:47:08",
+        "msg": ":08\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:46:52",
+        "msg": ":52\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:46:48",
+        "msg": ":48\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 16:46:40]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:46:36",
+        "msg": ":36\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:46:24",
+        "msg": ":24\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:46:14",
+        "msg": ":14\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 16:45:43]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:45:41",
+        "msg": ":41\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:45:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:45:28",
+        "msg": ":28\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:45:12",
+        "msg": ":12\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [6 Meldungen seit 15.06.24 16:44:24]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:44:10",
+        "msg": ":10\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:44:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:43:52",
+        "msg": ":52\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:43:47",
+        "msg": ":47\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [8 Meldungen seit 15.06.24 16:42:34]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:41:21",
+        "msg": ":21\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:41:17",
+        "msg": ":17\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 16:40:50]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:40:38",
+        "msg": ":38\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:40:18",
+        "msg": ":18\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [8 Meldungen seit 15.06.24 16:34:13]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:34:02",
+        "msg": ":02\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:33:56",
+        "msg": ":56\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [3 Meldungen seit 15.06.24 16:33:34]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:33:28",
+        "msg": ":28\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:32:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [3 Meldungen seit 15.06.24 16:30:54]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:25:00",
+        "msg": ":00\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:21:50",
+        "msg": ":50\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 16:21:20]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:21:16",
+        "msg": ":16\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:18:26",
+        "msg": ":26\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:18:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:39",
+        "msg": ":39\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:35",
+        "msg": ":35\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:24",
+        "msg": ":24\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:18",
+        "msg": ":18\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:16",
+        "msg": ":16\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:10",
+        "msg": ":10\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:17:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 16:16:56]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:16:52",
+        "msg": ":52\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:12:40",
+        "msg": ":40\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:12:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:10:18",
+        "msg": ":18\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:03:21",
+        "msg": ":21\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:03:12",
+        "msg": ":12\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:03:10",
+        "msg": ":10\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:03:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:03:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:02:54",
+        "msg": ":54\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:02:50",
+        "msg": ":50\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:02:42",
+        "msg": ":42\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:02:42",
+        "msg": ":42\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:02:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "16:02:28",
+        "msg": ":28\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 16:02:20]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:57:31",
+        "msg": ":31\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:56:26",
+        "msg": ":26\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:54:48",
+        "msg": ":48\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:53:38",
+        "msg": ":38\nWLAN-Gerät angemeldet (5 GHz), 135 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:53:12",
+        "msg": ":12\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:53:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 15:52:44]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:52:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (5 GHz), PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:52:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:52:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:50:40",
+        "msg": ":40\nWLAN-Gerät angemeldet (5 GHz), 135 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:50:12",
+        "msg": ":12\nWLAN-Gerät angemeldet (5 GHz), 866 Mbit/s, iPhonevhBenders, IP 192.168.178.114, MAC F0:D7:93:0E:B8:15.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:49:40",
+        "msg": ":40\nWLAN-Gerät angemeldet (5 GHz), 866 Mbit/s, iPhone-von-JavaVolker, IP 192.168.178.140, MAC D2:52:F0:F0:4E:EA.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:47:16",
+        "msg": ":16\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:47:06",
+        "msg": ":06\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:43:56",
+        "msg": ":56\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:43:44",
+        "msg": ":44\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 15:43:30]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:42:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:42:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:40:20",
+        "msg": ":20\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:40:12",
+        "msg": ":12\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 15:39:52]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:39:44",
+        "msg": ":44\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:37:48",
+        "msg": ":48\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:34:40",
+        "msg": ":40\nWLAN-Gerät wurde abgemeldet (5 GHz), iPhone-von-JavaVolker, IP 192.168.178.140, MAC D2:52:F0:F0:4E:EA.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:33:22",
+        "msg": ":22\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:33:14",
+        "msg": ":14\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 15:32:41]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:32:39",
+        "msg": ":39\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:32:33",
+        "msg": ":33\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:32:33",
+        "msg": ":33\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:31:58",
+        "msg": ":58\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:31:52",
+        "msg": ":52\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:27:14",
+        "msg": ":14\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:26:37",
+        "msg": ":37\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:26:23",
+        "msg": ":23\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:26:12",
+        "msg": ":12\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:26:06",
+        "msg": ":06\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 15:25:44]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:25:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:25:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 15:25:22]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:25:18",
+        "msg": ":18\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:25:00",
+        "msg": ":00\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 15:23:36]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:23:12",
+        "msg": ":12\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:23:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 15:22:34]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:21:55",
+        "msg": ":55\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:19:52",
+        "msg": ":52\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:19:48",
+        "msg": ":48\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [8 Meldungen seit 15.06.24 15:16:56]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:15:54",
+        "msg": ":54\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:15:48",
+        "msg": ":48\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:15:44",
+        "msg": ":44\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:12:50",
+        "msg": ":50\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:12:42",
+        "msg": ":42\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:12:32",
+        "msg": ":32\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:12:32",
+        "msg": ":32\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:11:52",
+        "msg": ":52\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:11:38",
+        "msg": ":38\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104). [3 Meldungen seit 15.06.24 15:11:24]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:11:14",
+        "msg": ":14\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:11:06",
+        "msg": ":06\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:11:00",
+        "msg": ":00\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [7 Meldungen seit 15.06.24 15:09:57]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:09:53",
+        "msg": ":53\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:06:04",
+        "msg": ":04\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:05:56",
+        "msg": ":56\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 15:05:48]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:05:36",
+        "msg": ":36\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104). [2 Meldungen seit 15.06.24 15:05:32]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:05:22",
+        "msg": ":22\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 15:05:14]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:05:00",
+        "msg": ":00\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104). [2 Meldungen seit 15.06.24 15:04:56]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:04:50",
+        "msg": ":50\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [13 Meldungen seit 15.06.24 15:02:31]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:02:04",
+        "msg": ":04\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP ---, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "15:02:00",
+        "msg": ":00\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [4 Meldungen seit 15.06.24 14:54:24]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:54:03",
+        "msg": ":03\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:53:57",
+        "msg": ":57\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [7 Meldungen seit 15.06.24 14:52:54]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:52:40",
+        "msg": ":40\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:52:40",
+        "msg": ":40\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 14:52:32]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:52:16",
+        "msg": ":16\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [10 Meldungen seit 15.06.24 14:46:46]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:46:42",
+        "msg": ":42\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:44:55",
+        "msg": ":55\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [4 Meldungen seit 15.06.24 14:42:31]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:39:16",
+        "msg": ":16\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:37:50",
+        "msg": ":50\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:37:50",
+        "msg": ":50\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:37:14",
+        "msg": ":14\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 135 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:36:04",
+        "msg": ":04\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:35:55",
+        "msg": ":55\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 14:35:31]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:35:19",
+        "msg": ":19\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:35:13",
+        "msg": ":13\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [8 Meldungen seit 15.06.24 14:33:52]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:33:48",
+        "msg": ":48\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:33:14",
+        "msg": ":14\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:33:00",
+        "msg": ":00\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 14:32:31]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:32:08",
+        "msg": ":08\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:32:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [3 Meldungen seit 15.06.24 14:31:40]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:31:32",
+        "msg": ":32\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:29:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [5 Meldungen seit 15.06.24 14:23:01]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:57",
+        "msg": ":57\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:42",
+        "msg": ":42\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:22",
+        "msg": ":22\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 14:22:14]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:10",
+        "msg": ":10\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:22:06",
+        "msg": ":06\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:17:34",
+        "msg": ":34\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 135 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:16:34",
+        "msg": ":34\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:15:09",
+        "msg": ":09\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:14:59",
+        "msg": ":59\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 14:14:51]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:14:38",
+        "msg": ":38\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:14:32",
+        "msg": ":32\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [5 Meldungen seit 15.06.24 14:13:52]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:13:40",
+        "msg": ":40\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:13:38",
+        "msg": ":38\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 14:13:14]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:13:10",
+        "msg": ":10\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:13:04",
+        "msg": ":04\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 14:12:52]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:12:44",
+        "msg": ":44\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:12:44",
+        "msg": ":44\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:12:31",
+        "msg": ":31\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:12:29",
+        "msg": ":29\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 14:12:21]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:12:17",
+        "msg": ":17\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:03:10",
+        "msg": ":10\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:03:00",
+        "msg": ":00\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 14:02:30]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:01:28",
+        "msg": ":28\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "14:01:22",
+        "msg": ":22\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [4 Meldungen seit 15.06.24 13:55:48]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:55:30",
+        "msg": ":30\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:55:24",
+        "msg": ":24\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:55:12",
+        "msg": ":12\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:55:10",
+        "msg": ":10\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:55:06",
+        "msg": ":06\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [4 Meldungen seit 15.06.24 13:54:28]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:54:22",
+        "msg": ":22\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:54:20",
+        "msg": ":20\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 13:54:04]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:53:54",
+        "msg": ":54\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:53:52",
+        "msg": ":52\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [9 Meldungen seit 15.06.24 13:52:30]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:52:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:51:12",
+        "msg": ":12\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:49:10",
+        "msg": ":10\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:49:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [3 Meldungen seit 15.06.24 13:48:42]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:48:28",
+        "msg": ":28\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:48:26",
+        "msg": ":26\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 13:48:18]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:48:06",
+        "msg": ":06\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:52",
+        "msg": ":52\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:46",
+        "msg": ":46\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:44",
+        "msg": ":44\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 13:47:34]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:18",
+        "msg": ":18\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:16",
+        "msg": ":16\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:10",
+        "msg": ":10\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:47:02",
+        "msg": ":02\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:58",
+        "msg": ":58\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:54",
+        "msg": ":54\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:54",
+        "msg": ":54\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:41",
+        "msg": ":41\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:37",
+        "msg": ":37\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:35",
+        "msg": ":35\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 13:46:23]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:21",
+        "msg": ":21\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:17",
+        "msg": ":17\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 13:46:07]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:46:07",
+        "msg": ":07\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 13:45:59]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:45:53",
+        "msg": ":53\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 13:45:45]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:45:45",
+        "msg": ":45\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:45:38",
+        "msg": ":38\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:45:38",
+        "msg": ":38\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:45:20",
+        "msg": ":20\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104). [2 Meldungen seit 15.06.24 13:45:10]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:45:06",
+        "msg": ":06\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [10 Meldungen seit 15.06.24 13:43:32]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:43:28",
+        "msg": ":28\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:43:22",
+        "msg": ":22\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:43:18",
+        "msg": ":18\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 13:43:10]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:43:08",
+        "msg": ":08\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 13:43:02]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:42:54",
+        "msg": ":54\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:42:47",
+        "msg": ":47\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:42:43",
+        "msg": ":43\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:42:37",
+        "msg": ":37\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:42:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:42:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:34:45",
+        "msg": ":45\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:34:12",
+        "msg": ":12\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-43-5B-C1, IP 192.168.178.76, MAC 68:57:2D:43:5B:C1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:34:06",
+        "msg": ":06\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:34:06",
+        "msg": ":06\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-68-57-2D-43-5B-C1, IP 192.168.178.76, MAC 68:57:2D:43:5B:C1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:33:54",
+        "msg": ":54\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [6 Meldungen seit 15.06.24 13:33:08]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:33:00",
+        "msg": ":00\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-43-5B-C1, IP 192.168.178.76, MAC 68:57:2D:43:5B:C1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:32:56",
+        "msg": ":56\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:32:47",
+        "msg": ":47\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:32:37",
+        "msg": ":37\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:32:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:32:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:29:17",
+        "msg": ":17\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-68-57-2D-43-5B-C1, IP 192.168.178.76, MAC 68:57:2D:43:5B:C1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:25:06",
+        "msg": ":06\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:25:00",
+        "msg": ":00\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [2 Meldungen seit 15.06.24 13:24:48]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:23:01",
+        "msg": ":01\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:22:34",
+        "msg": ":34\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:22:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:22:30",
+        "msg": ":30\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:15:18",
+        "msg": ":18\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:12:29",
+        "msg": ":29\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:10:00",
+        "msg": ":00\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:09:56",
+        "msg": ":56\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [4 Meldungen seit 15.06.24 13:08:20]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:07:32",
+        "msg": ":32\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "13:03:38",
+        "msg": ":38\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6. [3 Meldungen seit 15.06.24 13:02:28]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:59:54",
+        "msg": ":54\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:59:41",
+        "msg": ":41\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC. [2 Meldungen seit 15.06.24 12:59:33]",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:59:29",
+        "msg": ":29\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:54:46",
+        "msg": ":46\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:54:40",
+        "msg": ":40\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:54:31",
+        "msg": ":31\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:52:34",
+        "msg": ":34\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:52:28",
+        "msg": ":28\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:48:54",
+        "msg": ":54\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 433 Mbit/s, raspi4, IP 192.168.178.153, MAC E4:5F:01:87:65:25.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:48:52",
+        "msg": ":52\nWLAN-Gerät wurde umgemeldet (Band-Steering): Automatischer WLAN-Bandwechsel zur verbesserten Datenübertragung, raspi4, IP 192.168.178.153, MAC E4:5F:01:87:65:25.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:47:54",
+        "msg": ":54\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:47:50",
+        "msg": ":50\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:45:26",
+        "msg": ":26\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 866 Mbit/s, amazon-f912ffffa, IP 192.168.178.60, MAC F0:F0:A4:EB:F7:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:45:26",
+        "msg": ":26\nWLAN-Gerät wurde abgemeldet (5 GHz), amazon-f912ffffa, IP 192.168.178.60, MAC F0:F0:A4:EB:F7:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:45:22",
+        "msg": ":22\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, raspi4, IP 192.168.178.153, MAC E4:5F:01:87:65:25.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:54",
+        "msg": ":54\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:48",
+        "msg": ":48\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:42",
+        "msg": ":42\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:40",
+        "msg": ":40\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:36",
+        "msg": ":36\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:28",
+        "msg": ":28\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp8266keller1, IP 192.168.178.203, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:42:28",
+        "msg": ":28\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP 192.168.178.205, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:40:36",
+        "msg": ":36\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, PC-04-34-F6-10-38-B1, IP 192.168.178.131, MAC 04:34:F6:10:38:B1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:40:35",
+        "msg": ":35\nWLAN-Gerät wurde umgemeldet (Band-Steering): Automatischer WLAN-Bandwechsel zur verbesserten Datenübertragung, PC-04-34-F6-10-38-B1, IP 192.168.178.131, MAC 04:34:F6:10:38:B1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:37:38",
+        "msg": ":38\nWLAN-Gerät angemeldet (5 GHz), 866 Mbit/s, PC-E2-4F-56-4C-6B-FC, IP 192.168.178.100, MAC E2:4F:56:4C:6B:FC.",
+    },
+    {"date": "15.06.24", "time": "12:37:34", "msg": ":34\nAnmeldung einer App des Benutzers ha_callagent von IP-Adresse 192.168.178.47."},
+    {
+        "date": "15.06.24",
+        "time": "12:37:34",
+        "msg": ":34\nAnmeldung des Benutzers supermann an der FRITZ!Box-Benutzeroberfläche von IP-Adresse 192.168.178.47.",
+    },
+    {"date": "15.06.24", "time": "12:35:28", "msg": ":28\nAnmeldung einer App des Benutzers supermann von IP-Adresse 192.168.178.47."},
+    {
+        "date": "15.06.24",
+        "time": "12:33:52",
+        "msg": ":52\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 866 Mbit/s, iPhonevonAndrea, IP 192.168.178.142, MAC F8:10:93:4B:79:3E.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:50",
+        "msg": ":50\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:40",
+        "msg": ":40\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 144 Mbit/s, iPhonevonAndrea, IP 192.168.178.142, MAC F8:10:93:4B:79:3E.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:40",
+        "msg": ":40\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:36",
+        "msg": ":36\nNetzwerkgerät Name: PC-68-57-2D-41-63-EF, MAC: 68:57:2D:41:63:EF hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:34",
+        "msg": ":34\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:28",
+        "msg": ":28\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-41-70-11, IP 192.168.178.77, MAC 68:57:2D:41:70:11.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:25",
+        "msg": ":25\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-5C-CF-7F-53-D0-D6, IP ---, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:25",
+        "msg": ":25\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-41-63-EF, IP 192.168.178.75, MAC 68:57:2D:41:63:EF.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:25",
+        "msg": ":25\nNetzwerkgerät Name: PC-68-57-2D-50-64-8B, MAC: 68:57:2D:50:64:8B hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:25",
+        "msg": ":25\nNetzwerkgerät Name: PC-68-57-2D-50-51-D6, MAC: 68:57:2D:50:51:D6 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:23",
+        "msg": ":23\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-50-64-8B, IP 192.168.178.30, MAC 68:57:2D:50:64:8B.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:23",
+        "msg": ":23\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-50-51-D6, IP 192.168.178.31, MAC 68:57:2D:50:51:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:21",
+        "msg": ":21\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:21",
+        "msg": ":21\nAnmeldung der App MyFRITZ!App (iPhone) von IP-Adresse 2a02:908:113:83e0:803d:65d6:7e94:2975.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:17",
+        "msg": ":17\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-D0-D6, IP ---, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:13",
+        "msg": ":13\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:07",
+        "msg": ":07\nWLAN-Gerät angemeldet (5 GHz), 866 Mbit/s, iPhonevonAndrea, IP 192.168.178.142, MAC F8:10:93:4B:79:3E.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:04",
+        "msg": ":04\nNetzwerkgerät Name: TY-WR, MAC: 68:57:2D:50:52:88 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:03",
+        "msg": ":03\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-192-168-178-99, IP 192.168.178.99, MAC 68:57:2D:50:64:22.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:03",
+        "msg": ":03\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-D0-D6, IP ---, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:03",
+        "msg": ":03\nWLAN-Gerät hat sich neu angemeldet (2,4 GHz), 72 Mbit/s, esp-miscale, IP 192.168.178.89, MAC 30:AE:A4:47:20:C0.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:03",
+        "msg": ":03\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, robotic-mower, IP 192.168.178.87, MAC A8:03:2A:56:14:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:03",
+        "msg": ":03\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), robotic-mower, IP 192.168.178.87, MAC A8:03:2A:56:14:10.",
+    },
+    {"date": "15.06.24", "time": "12:33:03", "msg": ":03\nDer Dienstanbieter hat erfolgreich Einstellungen an dieses Gerät übertragen."},
+    {"date": "15.06.24", "time": "12:33:02", "msg": ":02\nDie Systemzeit wurde erfolgreich aktualisiert von Zeitserver 2001:778::120."},
+    {
+        "date": "15.06.24",
+        "time": "12:33:02",
+        "msg": ":02\nInternetverbindung wurde erfolgreich hergestellt. IPv4 wird über DS-Lite genutzt. AFTR-Gateway: de-fra04b-cr01.aftr.umkbw.net, IPv4-MTU: 1500.",
+    },
+    {"date": "15.06.24", "time": "12:33:02", "msg": ":02\nIPv6-Präfix wurde erfolgreich bezogen. Neues Präfix: 2a02:908:113:83e0::/59"},
+    {
+        "date": "15.06.24",
+        "time": "12:33:02",
+        "msg": ":02\nInternetverbindung IPv6 wurde erfolgreich hergestellt. IP-Adresse: 2a02:908:100:1::197a",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:33:01",
+        "msg": ":01\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, TY-WR, IP 192.168.178.56, MAC 68:57:2D:50:52:88.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:59",
+        "msg": ":59\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:59",
+        "msg": ":59\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp-miscale, IP 192.168.178.89, MAC 30:AE:A4:47:20:C0.",
+    },
+    {"date": "15.06.24", "time": "12:32:57", "msg": ":57\nKabel-Internet ist verfügbar."},
+    {
+        "date": "15.06.24",
+        "time": "12:32:55",
+        "msg": ":55\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-36-7C-6A-92-11-97, IP 192.168.178.129, MAC 36:7C:6A:92:11:97.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:55",
+        "msg": ":55\nWLAN-Gerät wurde abgemeldet (2,4 GHz), esp-miscale, IP 192.168.178.89, MAC 30:AE:A4:47:20:C0.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:53",
+        "msg": ":53\nWLAN-Gerät wird abgemeldet (2,4 GHz): WLAN-Gerät antwortet nicht, TY-WR, IP 192.168.178.56, MAC 68:57:2D:50:52:88. (#0104).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:51",
+        "msg": ":51\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-D0-D6, IP ---, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:49",
+        "msg": ":49\nWLAN-Gerät angemeldet (5 GHz), 866 Mbit/s, PC-D2-52-F0-F0-4E-EA, IP 192.168.178.140, MAC D2:52:F0:F0:4E:EA.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:49",
+        "msg": ":49\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), PC-D2-52-F0-F0-4E-EA, IP 192.168.178.140, MAC D2:52:F0:F0:4E:EA.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:44",
+        "msg": ":44\nNetzwerkgerät Name: raspi3Bclear, MAC: B8:27:EB:69:77:52 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:44",
+        "msg": ":44\nNetzwerkgerät Name: PC-68-57-2D-43-5B-C1, MAC: 68:57:2D:43:5B:C1 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:43",
+        "msg": ":43\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, robotic-mower, IP 192.168.178.87, MAC A8:03:2A:56:14:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:43",
+        "msg": ":43\nWLAN-Gerät hat sich abgemeldet (2,4 GHz), robotic-mower, IP 192.168.178.87, MAC A8:03:2A:56:14:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:41",
+        "msg": ":41\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:41",
+        "msg": ":41\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-D0-D6, IP ---, MAC 5C:CF:7F:53:D0:D6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:41",
+        "msg": ":41\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-68-57-2D-43-5B-C1, IP 192.168.178.76, MAC 68:57:2D:43:5B:C1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:37",
+        "msg": ":37\nWLAN-Gerät angemeldet (5 GHz), 866 Mbit/s, amazon-f912ffffa, IP 192.168.178.60, MAC F0:F0:A4:EB:F7:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:37",
+        "msg": ":37\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, raspi3Bclear, IP 192.168.178.146, MAC B8:27:EB:69:77:52.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:37",
+        "msg": ":37\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-FC-67-1F-65-70-DB, IP 192.168.178.70, MAC FC:67:1F:65:70:DB.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 433 Mbit/s, raspi4, IP 192.168.178.153, MAC E4:5F:01:87:65:25.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät wurde umgemeldet (Band-Steering): Automatischer WLAN-Bandwechsel zur verbesserten Datenübertragung, raspi4, IP 192.168.178.153, MAC E4:5F:01:87:65:25.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp-miscale, IP 192.168.178.89, MAC 30:AE:A4:47:20:C0.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät angemeldet (5 GHz), 433 Mbit/s, PC-04-34-F6-10-38-B1, IP 192.168.178.131, MAC 04:34:F6:10:38:B1.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät hat sich neu angemeldet (5 GHz), 866 Mbit/s, MBP-von-Volker, IP 192.168.178.24, MAC A0:78:17:85:34:F7.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-FC-67-1F-65-4E-82, IP 192.168.178.69, MAC FC:67:1F:65:4E:82.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nWLAN-Gerät angemeldet (5 GHz), 433 Mbit/s, PC-1C-4D-66-34-6E-10, IP 192.168.178.35, MAC 1C:4D:66:34:6E:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:35",
+        "msg": ":35\nNetzwerkgerät Name: tado, MAC: EC:E5:12:1A:6F:A9 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: robotic-mower, MAC: A8:03:2A:56:14:10 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: esp-volker, MAC: 48:3F:DA:54:DA:D0 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: esp-shower, MAC: A0:20:A6:15:DD:C6 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: PC-F8-54-B8-79-A5-1C, MAC: F8:54:B8:79:A5:1C hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: PC-A8-E6-21-C5-E3-13, MAC: A8:E6:21:C5:E3:13 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: PC-48-43-DD-E2-90-4D, MAC: 48:43:DD:E2:90:4D hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: PC-24-4C-E3-B2-55-05, MAC: 24:4C:E3:B2:55:05 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: PC-1C-4D-66-34-6E-10, MAC: 1C:4D:66:34:6E:10 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:34",
+        "msg": ":34\nNetzwerkgerät Name: ESP-EBE299, MAC: 68:C6:3A:EB:E2:99 hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:33",
+        "msg": ":33\nNetzwerkgerät Name: ESP-E7008F, MAC: F4:CF:A2:E7:00:8F hat sich mit der FRITZ!Box verbunden.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:32",
+        "msg": ":32\nWLAN-Gerät wurde abgemeldet (2,4 GHz), PC-5C-CF-7F-53-C0-FC, IP ---, MAC 5C:CF:7F:53:C0:FC.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:32",
+        "msg": ":32\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, raspi4, IP 192.168.178.153, MAC E4:5F:01:87:65:25.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:32",
+        "msg": ":32\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp-shower, IP 192.168.178.62, MAC A0:20:A6:15:DD:C6.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:30",
+        "msg": ":30\nWLAN-Gerät angemeldet (5 GHz), 433 Mbit/s, PC-48-43-DD-E2-90-4D, IP 192.168.178.110, MAC 48:43:DD:E2:90:4D.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:30",
+        "msg": ":30\nWLAN-Gerät angemeldet (2,4 GHz), 144 Mbit/s, MBP-von-Volker, IP 192.168.178.24, MAC A0:78:17:85:34:F7.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:30",
+        "msg": ":30\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp-volker, IP 192.168.178.63, MAC 48:3F:DA:54:DA:D0.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:30",
+        "msg": ":30\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-24-4C-E3-B2-55-05, IP 192.168.178.155, MAC 24:4C:E3:B2:55:05.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:28",
+        "msg": ":28\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-A8-E6-21-C5-E3-13, IP 192.168.178.172, MAC A8:E6:21:C5:E3:13.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:27",
+        "msg": ":27\nTemporärer Kanalwechsel auf Kanal 44 (Frequenz 5.220 GHz), bis die Prüfung auf bevorrechtigte Nutzer (z.B. Radar) auf der eingestellten Frequenz 5.260 GHz abgeschlossen ist (Zero Wait DFS).",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:26",
+        "msg": ":26\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-34-D2-70-EE-00-B9, IP 192.168.178.38, MAC 34:D2:70:EE:00:B9.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:26",
+        "msg": ":26\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, PC-F8-54-B8-79-A5-1C, IP 192.168.178.29, MAC F8:54:B8:79:A5:1C.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:24",
+        "msg": ":24\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, ESP-E67128, IP 192.168.178.86, MAC F4:CF:A2:E6:71:28.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:24",
+        "msg": ":24\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, ESP-EBE299, IP 192.168.178.27, MAC 68:C6:3A:EB:E2:99.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:24",
+        "msg": ":24\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, ESP-E7008F, IP 192.168.178.26, MAC F4:CF:A2:E7:00:8F.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:24",
+        "msg": ":24\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, AmazonPlug08K5, IP 192.168.178.46, MAC EC:0D:E4:D6:D3:E4.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:24",
+        "msg": ":24\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, esp32-9A3694, IP 192.168.178.122, MAC 08:3A:8D:9A:36:94.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:24",
+        "msg": ":24\nWLAN-Gerät angemeldet (2,4 GHz), 72 Mbit/s, robotic-mower, IP 192.168.178.87, MAC A8:03:2A:56:14:10.",
+    },
+    {
+        "date": "15.06.24",
+        "time": "12:32:14",
+        "msg": ":14\nKabel-Internet Synchronisierung beginnt (Training). [2 Meldungen seit 15.06.24 12:32:07]",
+    },
+]
